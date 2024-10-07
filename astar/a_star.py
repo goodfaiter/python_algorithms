@@ -60,6 +60,7 @@ if __name__ == "__main__":
     # TODO
     # 1 - generate_h should be an object we pass into AStar
     # 2 - array of f and g should be an object. we are currently storing f twice
+    # 3 - add chain of visitation
 
     transitions = {}
     transitions[0] = {1 : 1, 3 : 1}
